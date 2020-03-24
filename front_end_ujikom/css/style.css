@@ -1,0 +1,200 @@
+/* css jumbroton*/
+#intro {
+  width: 100%;
+  height: 84vh;
+  position: relative;
+  background: #f5f8fd url("../../img/10471.jpg") center top no-repeat;
+  background-size: cover;
+  margin-top: 16px;
+}
+#intro .intro-info h2 {
+  color: #8b0000;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: calibri;
+}
+#intro .intro-info h2 span {
+  color: #f08080;
+  font-family: calibri;
+}
+#intro .intro-info .btn-get-started,
+#intro .intro-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+  color: #fff;
+}
+#intro .intro-info .btn-get-started:hover,
+#intro .intro-info .btn-services:hover {
+  background: #0a98c0;
+}
+/*akhir jumbroton*/
+
+/*berita*/
+.post-single:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.post-single {
+    padding: 30px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.post-single.sticky .post-media {
+    width: 55%;
+    float: left;
+    margin-right: 60px;
+}
+.post-single .post-media img {
+    width: 100%;
+}
+.post-single .post-body .read-more {
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #8b0000;
+}
+
+/*akhir berita*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* */
+
+
+/*isi artikel berita*/
+.main {
+  width: 900px;
+  
+  float: left;
+}
+.main h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color:black;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+ p {
+  color:black;
+}
+.main .penulis a {
+  text-decoration: none;
+  color: red;
+}
+.main .penulis a:hover{
+  background-color: lightblue;
+  color: white; 
+}
+.main p{
+  margin-bottom: 20px;
+  font-family: calibri;
+  font-size: 15px;
+}
+@media screen and(min-width: 480px){
+ img{
+  display: block;
+  width: 100%;
+ }
+}
+/*akhir isi artikel berita*/
+
+/*sidebar*/
+.sidebar  {
+  width:  90px;
+  float:  right;  
+
+}
+.sidebar h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sidebar a{
+  font-weight: bold;
+  font-size: 20px;
+}
+.sidebar img{
+  width:100%;
+  height: 100%;
+  margin: 10px;
+}
+.sidebar .tr{
+  font-weight: bold;
+  font-size: 20px;
+  color:grey;
+}
+/*akhir sidebar*/
+
+.cf:before,
+.cf:after{
+  content:" ";
+  display: table;
+}
+
+.cf:after{
+  clear: both;
+}
